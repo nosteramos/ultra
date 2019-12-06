@@ -12,8 +12,7 @@ Chrome Webdriver for the installed chrome version placed it the root folder: htt
 
 Run:
 --- 
-To launch the Test Suite open a Terminal/Command Prompt and type: 
-cd <project root folder> 
+To launch the Test Suite open a Terminal/Command Prompt, CD the project's root folder and type: 
 python Tests.py 
 
 
