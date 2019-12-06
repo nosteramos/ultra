@@ -2,7 +2,7 @@ Note: This was only tested with chrome webdriver on Windows allthough it should 
 
 How to Run the Test Suite:
 
-prerequisite:
+Prerequisite:
 -------------
 Python 3.8.0 Installed https://www.python.org/downloads/
 
