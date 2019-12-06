@@ -5,7 +5,9 @@ How to Run the Test Suite:
 prerequisite:
 -------------
 Python 3.8.0 Installed https://www.python.org/downloads/
+
 Selenium Webdriver for Python: https://selenium-python.readthedocs.io/installation.html
+
 Chrome Webdriver for the installed chrome version placed it the root folder: https://chromedriver.chromium.org/downloads
 
 Run:
