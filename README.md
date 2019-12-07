@@ -22,9 +22,9 @@ Prerequisite:
 
 Run:
 ---
-Change Directory to the project's root folder
-If you have not install Selenium Webdriver for Python, please do so now (pip install selenium)
-run: python Tests.py
+* Change Directory to the project's root folder
+* If you have not install Selenium Webdriver for Python, please do so now (pip install selenium)
+* run: python Tests.py
 
 **I recommend using PyCharm
 
