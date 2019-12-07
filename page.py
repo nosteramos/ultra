@@ -1,14 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from element import BasePageElement
-from datetime import datetime
+
 
 from locators import LoginPageLocators, BaseFaceBookPageLocators, UpperMenuLocators, ProfilePageLocators
 
 
 class BasePage(object):
-    """Base class to initialize the base page that will be called from all pages"""
 
     def __init__(self, driver):
         self.driver = driver
@@ -17,13 +15,14 @@ class BasePage(object):
         try:
             WebDriverWait(self.driver, 10).until(
                 expected_conditions.presence_of_element_located((By.XPATH, "//*[contains(text(), '" + text + "')]")))
+            # Consider replacing with JQuery for better performance
         except:
             return False
 
         return True
 
+
 class BaseFaceBookPage(BasePage):
-    """Base class to initialize the base page that will be called from all pages"""
 
     def is_logged_in(self):
         try:
