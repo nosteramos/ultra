@@ -4,15 +4,13 @@ Note: This was only tested with chrome webdriver on Windows although it should a
 
 The Project contains the following files:
 ----------------------------------------
-locators.py (selenium locators)
-
-page.py (all page objects)
-
-Tests.py (unittest - for running the test)
-
-TestsData.py (Test Data: Facebook user/pass, Name & Birthday) - Don't forget to fill it before launching the suit
+* locators.py (selenium locators)
+* page.py (all page objects)
+* Tests.py (unittest - for running the test)
+* TestsData.py (Test Data: Facebook user/pass, Name & Birthday) - Don't forget to fill it before launching the suit
 
 How to Run the Test Suite:
+--------------------------
 
 Prerequisite:
 -------------
